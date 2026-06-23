@@ -1,0 +1,223 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Segoe UI',sans-serif;
+}
+
+html{
+    scroll-behavior:smooth;
+}
+
+body{
+    background:#08111f;
+    color:white;
+}
+
+.navbar{
+    position:sticky;
+    top:0;
+    z-index:1000;
+
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+
+    padding:15px 50px;
+
+    background:#0f172a;
+}
+
+.nav-left{
+    display:flex;
+    gap:30px;
+}
+
+.navbar a{
+    color:white;
+    text-decoration:none;
+    font-weight:600;
+}
+
+.resume-btn{
+    background:#16a34a;
+    padding:10px 18px;
+    border-radius:8px;
+}
+
+.container{
+    width:85%;
+    margin:auto;
+    padding:30px 0;
+}
+
+section{
+    margin-top:40px;
+    scroll-margin-top:90px;
+}
+
+.profile-card{
+    display:flex;
+    gap:50px;
+    align-items:center;
+
+    background:#111827;
+    padding:35px;
+    border-radius:20px;
+}
+
+.profile-img{
+    width:180px;
+    height:180px;
+    border-radius:50%;
+    object-fit:cover;
+}
+
+.socials{
+    margin-top:20px;
+}
+
+.socials a{
+    padding:10px 15px;
+    border-radius:8px;
+    text-decoration:none;
+    color:white;
+    margin-right:10px;
+}
+
+.linkedin{
+    background:#0A66C2;
+}
+
+.github{
+    background:#24292F;
+}
+
+.gmail{
+    background:#EA4335;
+}
+
+.tech-stack,
+.skills,
+#projects,
+#certifications,
+#contact{
+    background:#111827;
+    padding:25px;
+    border-radius:20px;
+}
+
+.badges{
+    display:flex;
+    flex-wrap:wrap;
+    gap:10px;
+    margin-top:20px;
+}
+
+.badges span{
+    background:#2563eb;
+    padding:10px 16px;
+    border-radius:20px;
+}
+
+.skill{
+    margin-top:20px;
+}
+
+.bar{
+    width:100%;
+    height:14px;
+    background:#374151;
+    border-radius:20px;
+}
+
+.fill{
+    height:100%;
+    border-radius:20px;
+}
+
+.python{
+    width:90%;
+    background:#38bdf8;
+}
+
+.django{
+    width:85%;
+    background:#22c55e;
+}
+
+.sql{
+    width:80%;
+    background:#f97316;
+}
+
+.project-grid,
+.cert-grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+    gap:20px;
+    margin-top:20px;
+}
+
+.card{
+    background:#1e293b;
+    padding:20px;
+    border-radius:15px;
+    cursor:pointer;
+    transition:.3s;
+}
+
+.card:hover{
+    transform:translateY(-5px);
+}
+
+@media(max-width:768px){
+
+    .navbar{
+        flex-direction:column;
+        gap:15px;
+    }
+
+    .profile-card{
+        flex-direction:column;
+        text-align:center;
+    }
+
+}
+.modal{
+    display:none;
+    position:fixed;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    background:rgba(0,0,0,.8);
+    z-index:9999;
+}
+
+.modal-content{
+    background:#111827;
+    width:70%;
+    max-width:800px;
+    margin:5% auto;
+    padding:30px;
+    border-radius:20px;
+    color:white;
+}
+
+.close{
+    float:right;
+    font-size:35px;
+    cursor:pointer;
+}
+
+.close:hover{
+    color:red;
+}
+
+.cert-image{
+    width:100%;
+    max-height:400px;
+    object-fit:contain;
+    margin:20px 0;
+}
