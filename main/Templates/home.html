@@ -29,13 +29,10 @@
     <a href="#contact">Contact</a>
 </div>
 
-<div class="nav-right">
-    <a href="{% static 'resume/saisnehank_resume.pdf' %}"
-   download
-   class="resume-btn">
-   Download Resume
+<a href="/accounts/google/login/" class="resume-btn">
+    <i class="fab fa-google"></i>
+    Download Resume
 </a>
-</div>
 
 
 </nav>
@@ -47,7 +44,7 @@
 
     <div class="left-side">
 
-        <img src="{% static 'images/profile.png' %}"
+        <img src="{% static 'images/1782853010497.png' %}"
              class="profile-img">
 
         <h2>K Sai Snehan</h2>
@@ -58,38 +55,37 @@
 
     <div class="right-side">
 
-        <h2>About Me</h2>
+    <h2>About Me</h2>
 
-      <p>
+    <p class="about-text">
         Computer Science and Engineering graduate with expertise in Python, Django, SQL,
         and Machine Learning. Experienced in developing web applications and data-driven
         solutions, with a strong interest in software engineering and emerging technologies.
         Committed to continuous learning and delivering efficient, scalable, and user-focused solutions.
+    </p>
 
-        <div class="socials">
+    <div class="socials">
 
-            <a href="https://www.linkedin.com/in/k-saisnehan/" target="_blank" class="linkedin">
-    <i class="fab fa-linkedin"></i>
-    LinkedIn
-</a>
+        <a href="https://www.linkedin.com/in/k-saisnehan/" target="_blank" class="linkedin">
+            <i class="fab fa-linkedin"></i>
+            LinkedIn
+        </a>
 
-<a href="https://github.com/Saisnehan" target="_blank" class="github">
-    <i class="fab fa-github"></i>
-    GitHub
-</a>
+        <a href="https://github.com/Saisnehan" target="_blank" class="github">
+            <i class="fab fa-github"></i>
+            GitHub
+        </a>
 
-<a href="mailto:saisnehank@gmail.com" class="gmail">
-    <i class="fas fa-envelope"></i>
-    Email
-</a>
-
-        </div>
+        <a href="mailto:saisnehank@gmail.com" class="gmail">
+            <i class="fas fa-envelope"></i>
+            Email
+        </a>
 
     </div>
 
+</div>
+
 </section>
-
-
 
 
 <section id="education" class="education">
@@ -127,7 +123,7 @@
     </div>
 
     <br>
-
+</section>
 
 <section id="skills" class="skills">
 
@@ -181,172 +177,864 @@
 
 <section id="projects">
 
-    <h2>Projects</h2>
+    <h2 class="section-title">
+        <i class="fas fa-code"></i>
+        Projects
+    </h2>
 
     <div class="project-grid">
 
-<div class="card"
-onclick="openProjectModal(
-'Used Car Price Prediction',
-'Predict vehicle resale value',
-'Helps buyers estimate fair prices',
-'98%',
-'Python, Django, ML, MySQL',
-'https://github.com/Saisnehan/Used-Car-Price-Prediction-System-',
-'#'
-)">
-<h3>Used Car Price Prediction</h3>
-<p>Machine Learning + Django</p>
+        <!-- Project 1 -->
+
+        <div class="project-card">
+
+            <div class="project-type">
+                Machine Learning
+            </div>
+
+            <h2>
+                Used Car Price Prediction
+            </h2>
+
+            <p>
+                Machine learning based web application that predicts the resale
+                value of used vehicles using multiple regression algorithms,
+                helping buyers and sellers estimate accurate market prices.
+            </p>
+
+            <div class="tech-tags">
+
+                <span>Python</span>
+                <span>Django</span>
+                <span>MySQL</span>
+                <span>Machine Learning</span>
+
+            </div>
+
+            <div class="project-buttons">
+
+                <a href="#"
+                   class="live-btn"
+                   onclick="openProjectModal(
+                   'Used Car Price Prediction',
+                   'Predict resale value using Machine Learning',
+                   'Reduces manual valuation and helps buyers estimate fair market prices',
+                   '98%',
+                   'Python, Django, MySQL, Machine Learning',
+                   'https://github.com/Saisnehan/Used-Car-Price-Prediction-System-',
+                   '#'
+                   )">
+
+                    <i class="fas fa-eye"></i>
+
+                    View Details
+
+                </a>
+
+                <a href="https://github.com/Saisnehan/Used-Car-Price-Prediction-System-"
+                   target="_blank"
+                   class="github-btn">
+
+                    <i class="fab fa-github"></i>
+
+                    GitHub
+
+                </a>
+
+            </div>
+
+        </div>
+
+        <!-- Project 2 -->
+
+        <div class="project-card">
+
+            <div class="project-type">
+                Web Application
+            </div>
+
+            <h2>
+                Employee Management System
+            </h2>
+
+            <p>
+                Django-based employee management portal with authentication,
+                role-based access, CRUD operations, and employee record
+                management using MySQL.
+            </p>
+
+            <div class="tech-tags">
+
+                <span>Python</span>
+                <span>Django</span>
+                <span>Bootstrap</span>
+                <span>MySQL</span>
+
+            </div>
+
+            <div class="project-buttons">
+
+                <a href="#"
+                   class="live-btn"
+                   onclick="openProjectModal(
+                   'Employee Management System',
+                   'Manage employee records digitally',
+                   'Eliminates manual record maintenance',
+                   '100%',
+                   'Python, Django, Bootstrap, MySQL',
+                   'https://github.com/Saisnehan/Office_Emp_Management_sys',
+                   'https://office-emp-management-sys.vercel.app/'
+                   )">
+
+                    <i class="fas fa-eye"></i>
+
+                    View Details
+
+                </a>
+
+                <a href="https://github.com/Saisnehan/Office_Emp_Management_sys"
+                   target="_blank"
+                   class="github-btn">
+
+                    <i class="fab fa-github"></i>
+
+                    GitHub
+
+                </a>
+
+            </div>
+
+        </div>
+
+        <!-- Project 3 -->
+
+        <!-- Project 4 -->
+
+<div class="project-card">
+
+    <div class="project-type">
+        AI Chatbot
+    </div>
+
+    <h2>
+        Joii AI WhatsApp ChatBot
+    </h2>
+
+    <p>
+        An AI-powered WhatsApp chatbot built using Flask, Twilio, and OpenAI's
+        ChatGPT API. It supports intelligent conversations and allows users to
+        create natural language reminders that are delivered directly through
+        WhatsApp.
+    </p>
+
+    <div class="tech-tags">
+
+        <span>Python</span>
+        <span>Flask</span>
+        <span>OpenAI API</span>
+        <span>Twilio</span>
+        <span>WhatsApp API</span>
+
+    </div>
+
+    <div class="project-buttons">
+
+        <a href="#"
+           class="live-btn"
+
+           onclick="openProjectModal(
+           'Joii AI WhatsApp ChatBot',
+           'Develop an intelligent WhatsApp chatbot that can answer user queries and send scheduled reminders using natural language.',
+           'Automates reminder scheduling and provides AI-powered conversational assistance through WhatsApp, improving productivity and accessibility.',
+           '100%',
+           'Python, Flask, Twilio API, OpenAI ChatGPT API, WhatsApp Cloud API',
+           'https://github.com/Saisnehan/Joii-Ai-ChatBot',
+           '#'
+           )">
+
+            <i class="fas fa-eye"></i>
+
+            View Details
+
+        </a>
+
+        <a href="https://github.com/Saisnehan/Joii-Ai-ChatBot"
+           target="_blank"
+           class="github-btn">
+
+            <i class="fab fa-github"></i>
+
+            GitHub
+
+        </a>
+
+    </div>
+
+</div>
+<!-- Project 5 -->
+
+<div class="project-card">
+
+    <div class="project-type">
+        Deep Learning
+    </div>
+
+    <h2>
+        Handwritten Digit Classification
+    </h2>
+
+    <p>
+        A deep learning application that classifies handwritten digits using the
+        MNIST dataset. Built with TensorFlow and Keras, the model accurately
+        recognizes digits from 0 to 9 with high prediction accuracy.
+    </p>
+
+    <div class="tech-tags">
+
+        <span>Python</span>
+        <span>TensorFlow</span>
+        <span>Keras</span>
+        <span>NumPy</span>
+        <span>Matplotlib</span>
+
+    </div>
+
+    <div class="project-buttons">
+
+        <a href="#"
+           class="live-btn"
+
+           onclick="openProjectModal(
+           'Handwritten Digit Classification',
+           'Develop a deep learning model capable of accurately recognizing handwritten digits using the MNIST dataset.',
+           'Automates handwritten digit recognition, reducing manual data entry and demonstrating practical applications of image classification in AI.',
+           '98%',
+           'Python, TensorFlow, Keras, NumPy, Matplotlib, Seaborn',
+           'https://github.com/Saisnehan/Hand-Written-Digit-Prediction---Classification-Analysis',
+           '#'
+           )">
+
+            <i class="fas fa-eye"></i>
+
+            View Details
+
+        </a>
+
+            <a href="https://github.com/Saisnehan/Hand-Written-Digit-Prediction---Classification-Analysis"
+           target="_blank"
+           class="github-btn">
+
+            <i class="fab fa-github"></i>
+
+            GitHub
+
+        </a>
+
+    </div>
+
 </div>
 
+<!-- Project 6 -->
 
+<div class="project-card">
 
-<div class="card"
-onclick="openProjectModal(
-'Employee Management System',
-'Manage employee records efficiently',
-'Reduces manual employee tracking',
-'100%',
-'Python, Django, MySQL, Bootstrap',
-'https://github.com/Saisnehan/Employee-Management-System',
-'#'
-)">
-<h3>Employee Management System</h3>
-<p>Django + MySQL</p>
+    <div class="project-type">
+        Full Stack Web Development
+    </div>
+
+    <h2>
+        Personal Portfolio Website
+    </h2>
+
+    <p>
+        A modern, responsive portfolio website built using Django to showcase my
+        education, technical skills, projects, certifications, resume, and contact
+        information. Designed with an interactive UI, project and certificate popups,
+        smooth scrolling, and a recruiter-friendly layout.
+    </p>
+
+    <div class="tech-tags">
+
+        <span>Python</span>
+        <span>Django</span>
+        <span>HTML5</span>
+        <span>CSS3</span>
+        <span>JavaScript</span>
+        <span>Bootstrap</span>
+
+    </div>
+
+    <div class="project-buttons">
+
+        <a href="#"
+           class="live-btn"
+
+           onclick="openProjectModal(
+           'Personal Portfolio Website',
+           'Develop a professional portfolio website to showcase projects, technical skills, certifications, resume, and contact information in one place.',
+           'Provides recruiters and employers with an organized, interactive, and responsive platform to explore my profile, achievements, and technical expertise.',
+           '100%',
+           'Python, Django, HTML5, CSS3, JavaScript, Bootstrap',
+           'https://github.com/Saisnehan/Personal-portfolio',
+           'https://your-portfolio-link.vercel.app'
+           )">
+
+            <i class="fas fa-eye"></i>
+
+            View Details
+
+        </a>
+
+        <a href="https://github.com/Saisnehan/Personal-portfolio"
+           target="_blank"
+           class="github-btn">
+
+            <i class="fab fa-github"></i>
+
+            GitHub
+
+        </a>
+
+    </div>
+
 </div>
-
-
-
-<div class="card"
-onclick="openProjectModal(
-'Customer Churn Analysis',
-'Predict customer retention',
-'Identifies customers likely to leave',
-'85%',
-'Python, Pandas, ML',
-'#',
-'#'
-)">
-<h3>Customer Churn Analysis</h3>
-<p>Data Analytics</p>
-</div>
-
-</div>
+    </div>
 
 </section>
 
 <section id="certifications">
 
-    <h2>Certifications</h2>
+    <h2 class="section-title">
+        <i class="fas fa-award"></i>
+        Certifications
+    </h2>
 
     <div class="cert-grid">
 
-<div class="card"
-onclick="openCertModal(
-'IBM SQL Certificate',
-'{% static "images/Ibm.png" %}',
-'SQL Queries, Joins, Database Design',
-'DB0101EN',
-'https://www.coursera.org'
-)">
-<i class="fas fa-certificate"></i>
-IBM SQL Certificate
+        <!-- IBM SQL -->
+
+        <div class="cert-card">
+
+            <div class="cert-icon">
+                <i class="fas fa-certificate"></i>
+            </div>
+
+            <h2>IBM SQL Certificate</h2>
+
+            <h4>IBM Skills Network</h4>
+
+            <p class="cert-date">
+                <i class="far fa-calendar-alt"></i>
+                Issued Jan 2026
+            </p>
+
+            <div class="cert-tags">
+
+                <span>SQL</span>
+                <span>Joins</span>
+                <span>Database</span>
+                <span>Queries</span>
+
+            </div>
+
+            <button class="cert-btn"
+
+            onclick="openCertModal(
+            'IBM SQL Certificate',
+            '{% static "images/Ibm.png" %}',
+            'SQL Queries, Joins, Database Design',
+            'DB0101EN',
+            'https://www.coursera.org'
+            )">
+
+                <i class="fas fa-eye"></i>
+
+                View Certificate
+
+            </button>
+
+        </div>
+
+        <!-- HackerRank SQL -->
+
+        <div class="cert-card">
+
+            <div class="cert-icon">
+                <i class="fas fa-certificate"></i>
+            </div>
+
+            <h2>HackerRank SQL (Advanced)</h2>
+
+            <h4>HackerRank</h4>
+
+            <p class="cert-date">
+                <i class="far fa-calendar-alt"></i>
+                Issued 2026
+            </p>
+
+            <div class="cert-tags">
+
+                <span>SQL</span>
+                <span>CTE</span>
+                <span>Window</span>
+                <span>Optimization</span>
+
+            </div>
+
+            <button class="cert-btn"
+
+            onclick="openCertModal(
+            'HackerRank SQL (Advanced)',
+            '{% static "images/Sql_Hr.png" %}',
+            'Advanced SQL Queries, Window Functions, CTEs, Query Optimization',
+            'SQL-ADVANCED',
+            'https://www.hackerrank.com/certificates/'
+            )">
+
+                <i class="fas fa-eye"></i>
+
+                View Certificate
+
+            </button>
+
+        </div>
+
+        <!-- SkillRaace -->
+
+        <div class="cert-card">
+
+            <div class="cert-icon">
+                <i class="fas fa-certificate"></i>
+            </div>
+
+            <h2>Python Development Internship</h2>
+
+            <h4>SkillRaace</h4>
+
+            <p class="cert-date">
+                <i class="far fa-calendar-alt"></i>
+                Issued Mar 2026
+            </p>
+
+            <div class="cert-tags">
+
+                <span>Python</span>
+                <span>Django</span>
+                <span>Projects</span>
+
+            </div>
+
+            <button class="cert-btn"
+
+            onclick="openCertModal(
+            'Python Development Internship',
+            '{% static "images/Skill_race.png" %}',
+            'Python Programming, Problem Solving, Software Development Concepts',
+            'SR26074',
+            'https://skillraace.com'
+            )">
+
+                <i class="fas fa-eye"></i>
+
+                View Certificate
+
+            </button>
+
+        </div>
+
+        <!-- YBI Foundation -->
+
+<div class="cert-card">
+
+    <div class="cert-icon">
+        <i class="fas fa-user-graduate"></i>
+    </div>
+
+    <h2>Data Science & AIML Internship</h2>
+
+    <h4>YBI Foundation</h4>
+
+    <p class="cert-date">
+        <i class="far fa-calendar-alt"></i>
+        Issued Oct 2024
+    </p>
+
+    <div class="cert-tags">
+
+        <span>Python</span>
+        <span>Machine Learning</span>
+        <span>Data Science</span>
+        <span>AI</span>
+
+    </div>
+
+    <button class="cert-btn"
+
+    onclick="openCertModal(
+    'Data Science & AIML Internship',
+    '{% static "images/YBI.png" %}',
+    'Python, Machine Learning, Data Science, Artificial Intelligence, Real-world Projects',
+    'GGD34A3DCV0UE',
+    'https://www.ybifoundation.org'
+    )">
+
+        <i class="fas fa-eye"></i>
+
+        View Certificate
+
+    </button>
+
+</div>
+<!-- Microsoft AI Skills Fest -->
+
+<div class="cert-card">
+
+    <div class="cert-icon">
+        <i class="fab fa-microsoft"></i>
+    </div>
+
+    <h2>Microsoft AI Skills Fest 2026</h2>
+
+    <h4>Microsoft</h4>
+
+    <p class="cert-date">
+        <i class="far fa-calendar-alt"></i>
+        Issued 2026
+    </p>
+
+    <div class="cert-tags">
+
+        <span>AI Ethics</span>
+        <span>Prompt Engineering</span>
+        <span>Workflow Automation</span>
+        <span>Applied AI</span>
+
+    </div>
+
+    <button class="cert-btn"
+
+    onclick="openCertModal(
+    'Microsoft AI Skills Fest 2026',
+    '{% static "images/Microsoft_AI.png" %}',
+    'AI Ethics, AI Literacy, Prompt Engineering, Applied AI, Workflow Automation',
+    'Microsoft-AI-2026',
+    'https://learn.microsoft.com'
+    )">
+
+        <i class="fas fa-eye"></i>
+
+        View Certificate
+
+    </button>
+
+</div>
+<!-- OpenAI Academy -->
+
+<div class="cert-card">
+
+    <div class="cert-icon">
+        <i class="fas fa-robot"></i>
+    </div>
+
+    <h2>Generative AI Mastery Workshop</h2>
+
+    <h4>OpenAI Academy</h4>
+
+    <p class="cert-date">
+        <i class="far fa-calendar-alt"></i>
+        Issued Sep 2025
+    </p>
+
+    <div class="cert-tags">
+
+        <span>Generative AI</span>
+        <span>ChatGPT</span>
+        <span>Prompt Engineering</span>
+
+    </div>
+
+    <button class="cert-btn"
+
+    onclick="openCertModal(
+    'Generative AI Mastery Workshop',
+    '{% static "images/OpenAI.png" %}',
+    'Generative AI, Prompt Engineering, AI Applications',
+    'OpenAI-Workshop-2025',
+    'https://academy.openai.com'
+    )">
+
+        <i class="fas fa-eye"></i>
+
+        View Certificate
+
+    </button>
+
+</div>
+        <!-- Udemy -->
+
+        <div class="cert-card">
+
+            <div class="cert-icon">
+                <i class="fas fa-certificate"></i>
+            </div>
+
+            <h2>Python Complete Course</h2>
+
+            <h4>Udemy</h4>
+
+            <p class="cert-date">
+
+                <i class="far fa-calendar-alt"></i>
+
+                Issued Sep 2024
+
+            </p>
+
+            <div class="cert-tags">
+
+                <span>Python</span>
+                <span>Functions</span>
+                <span>Loops</span>
+                <span>OOP</span>
+
+            </div>
+
+            <button class="cert-btn"
+
+            onclick="openCertModal(
+            'Python Complete Course',
+            '{% static "images/udemy_python.png" %}',
+            'Python Fundamentals, Data Types, Functions, Loops',
+            'UC-cf1a0d39-a0d8-4aff-8a09-f9845439af50',
+            'https://www.udemy.com'
+            )">
+
+                <i class="fas fa-eye"></i>
+
+                View Certificate
+
+            </button>
+
+        </div>
+
+
+
+        <!-- CodeTantra -->
+
+<div class="cert-card">
+
+    <div class="cert-icon">
+        <i class="fas fa-code"></i>
+    </div>
+
+    <h2>C Programming - TAP</h2>
+
+    <h4>CodeTantra</h4>
+
+    <p class="cert-date">
+        <i class="far fa-calendar-alt"></i>
+        Issued Jan 2025
+    </p>
+
+    <div class="cert-tags">
+
+        <span>C</span>
+        <span>Programming</span>
+        <span>Problem Solving</span>
+
+    </div>
+
+    <button class="cert-btn"
+
+    onclick="openCertModal(
+    'C Programming TAP',
+    '{% static "images/CodeTantra.png" %}',
+    'C Programming, Problem Solving, Programming Fundamentals',
+    'CT502-uvS96b7-cF',
+    '#'
+    )">
+
+        <i class="fas fa-eye"></i>
+
+        View Certificate
+
+    </button>
+
+</div>
+        <!-- Ethical Hacking -->
+
+<div class="cert-card">
+
+    <div class="cert-icon">
+        <i class="fas fa-certificate"></i>
+    </div>
+
+    <h2>Ethical Hacking</h2>
+
+    <h4>NPTEL</h4>
+
+    <p class="cert-date">
+        <i class="far fa-calendar-alt"></i>
+        Issued Jul 2025
+    </p>
+
+    <div class="cert-tags">
+
+        <span>Cyber Security</span>
+        <span>Network</span>
+        <span>Pen Testing</span>
+
+    </div>
+
+    <button class="cert-btn"
+
+    onclick="openCertModal(
+    'NPTEL Ethical Hacking',
+    '{% static "images/Eh_h.png" %}',
+    'Cyber Security, Penetration Testing, Vulnerability Assessment, Network Security',
+    'NPTEL25CS142S870702216',
+    'https://nptel.ac.in'
+    )">
+
+        <i class="fas fa-eye"></i>
+
+        View Certificate
+
+    </button>
+
+</div>
+        <!-- Internshala Student Partner -->
+
+<div class="cert-card">
+
+    <div class="cert-icon">
+        <i class="fas fa-certificate"></i>
+    </div>
+
+    <h2>Internshala Student Partner</h2>
+
+    <h4>Internshala</h4>
+
+    <p class="cert-date">
+        <i class="far fa-calendar-alt"></i>
+        Issued Oct 2025
+    </p>
+
+    <div class="cert-tags">
+
+        <span>Leadership</span>
+        <span>Marketing</span>
+        <span>Communication</span>
+
+    </div>
+
+    <button class="cert-btn"
+
+    onclick="openCertModal(
+    'Internshala Student Partner',
+    '{% static "images/Isp.png" %}',
+    'Student Outreach, Leadership, Marketing, Communication, Community Building',
+    'ISP-2025',
+    'https://internshala.com'
+    )">
+
+        <i class="fas fa-eye"></i>
+
+        View Certificate
+
+    </button>
+
+</div>
+<!-- Tata Data Analytics -->
+
+<div class="cert-card">
+
+    <div class="cert-icon">
+        <i class="fas fa-certificate"></i>
+    </div>
+
+    <h2>Tata Data Analytics</h2>
+
+    <h4>Forage</h4>
+
+    <p class="cert-date">
+        <i class="far fa-calendar-alt"></i>
+        Issued Jan 2026
+    </p>
+
+    <div class="cert-tags">
+
+        <span>EDA</span>
+        <span>GenAI</span>
+        <span>Analytics</span>
+
+    </div>
+
+    <button class="cert-btn"
+
+    onclick="openCertModal(
+    'Tata Data Analytics',
+    '{% static "images/Tata.png" %}',
+    'Exploratory Data Analysis, GenAI Tools, Business Analytics',
+    'HsLynHQP3SwtJnQos',
+    'https://www.theforage.com'
+    )">
+
+        <i class="fas fa-eye"></i>
+
+        View Certificate
+
+    </button>
+
 </div>
 
-<div class="card"
-onclick="openCertModal(
-'HackerRank SQL (Advanced)',
-'{% static "images/Sql_Hr.png" %}',
-'Advanced SQL Queries, Joins, Window Functions, CTEs, Query Optimization',
-'SQL-ADVANCED',
-'https://www.hackerrank.com/certificates/'
-)">
-<i class="fas fa-certificate"></i>
-HackerRank SQL (Advanced)
-</div>
+<!-- Deloitte -->
 
+<div class="cert-card">
 
-<div class="card"
-onclick="openCertModal(
-'Python Development Internship',
-'{% static "images/Skill_race.png" %}',
-'Python Programming, Problem Solving, Software Development Concepts, Real-world Applications',
-'SR26074',
-'https://skillraace.com'
-)">
-<i class="fas fa-certificate"></i>
-Python Development Internship
-</div>
+    <div class="cert-icon">
+        <i class="fas fa-certificate"></i>
+    </div>
 
+    <h2>Deloitte Technology Simulation</h2>
 
-<div class="card"
-onclick="openCertModal(
-'Python Complete Course',
-'{% static "images/udemy_python.png" %}',
-'Python Fundamentals, Data Types, Loops, Functions, Problem Solving',
-'UC-cf1a0d39-a0d8-4aff-8a09-f9845439af50',
-'https://www.udemy.com'
-)">
-<i class="fas fa-certificate"></i>
-Python Complete Course
-</div>
+    <h4>Forage</h4>
 
+    <p class="cert-date">
+        <i class="far fa-calendar-alt"></i>
+        Issued Dec 2025
+    </p>
 
-<div class="card"
-onclick="openCertModal(
-'Internshala Student Partner',
-'{% static "images/Isp.png" %}',
-'Student Outreach, Leadership, Marketing, Communication, Community Building',
-'ISP-2025',
-'https://internshala.com'
-)">
-<i class="fas fa-certificate"></i>
-Internshala Student Partner (ISP)
-</div>
+    <div class="cert-tags">
 
+        <span>Dashboard</span>
+        <span>Coding</span>
+        <span>Technology</span>
 
-<div class="card"
-onclick="openCertModal(
-'Tata Data Analytics',
-'{% static "images/Tata.png" %}',
-'Data Visualization, Business Analytics',
-'TATA-2026',
-'https://www.theforage.com'
-)">
-<i class="fas fa-certificate"></i>
-Tata Data Analytics
-</div>
+    </div>
 
+    <button class="cert-btn"
 
-<div class="card"
-onclick="openCertModal(
-'Deloitte Technology Job Simulation',
-'{% static "images/Deloittle.png" %}',
-'Dashboard Development, Coding, Business Analysis, Technology Consulting',
-'QQcZRP4WpqnYYQa2h',
-'https://www.theforage.com'
-)">
-<i class="fas fa-certificate"></i>
-Deloitte Technology Job Simulation
-</div>
+    onclick="openCertModal(
+    'Deloitte Technology Job Simulation',
+    '{% static "images/Deloittle.png" %}',
+    'Dashboard Development, Coding, Business Analysis, Technology Consulting',
+    'QQcZRP4WpqnYYQa2h',
+    'https://www.theforage.com'
+    )">
 
-<div class="card"
-onclick="openCertModal(
-'NPTEL Ethical Hacking',
-'{% static "images/Eh_h.png" %}',
-'Cyber Security, Penetration Testing, Vulnerability Assessment, Network Security',
-'NPTEL25CS142S870702216',
-'https://nptel.ac.in'
-)">
-<i class="fas fa-certificate"></i>
-Ethical Hacking
-</div>
+        <i class="fas fa-eye"></i>
 
+        View Certificate
 
+    </button>
 
 </div>
+
+    </div>
 
 </section>
+
 
 <section id="contact">
 
@@ -354,109 +1042,119 @@ Ethical Hacking
 
     <p>Email : saisnehank@gmail.com</p>
 
-    <p>Phone : +91 98498 85852</p>
+    
 
 </section>
 
 
-</div>
+<!-- ================= PROJECT MODAL ================= -->
 
 <div id="projectModal" class="modal">
 
-<div class="modal-content">
+    <div class="project-modal-content">
 
-<span class="close"
-onclick="closeProjectModal()">
+        <span class="close-btn"
+              onclick="closeProjectModal()">
+            &times;
+        </span>
 
-&times;
+        <span class="project-badge">
+            Featured Project
+        </span>
 
-</span>
+        <h2 id="projectTitle"></h2>
 
-<h2 id="projectTitle"></h2>
+        <div class="progress-box">
 
-<p>
-<strong>Goal:</strong>
-<span id="projectGoal"></span>
-</p>
+            <span>Project Completion</span>
 
-<p>
-<strong>Problem Solved:</strong>
-<span id="projectProblem"></span>
-</p>
+            <div class="accuracy-badge"
+                 id="projectAccuracy">
+            </div>
 
-<p>
-<strong>Accuracy / Progress:</strong>
-<span id="projectAccuracy"></span>
-</p>
+        </div>
 
-<p>
-<strong>Tech Stack:</strong>
-<span id="projectTech"></span>
-</p>
+        <div class="modal-section">
 
-<p>
-<a id="projectGithub"
-target="_blank">
+            <h3>🎯 Goal</h3>
 
-GitHub Repository
+            <p id="projectGoal"></p>
 
-</a>
-</p>
+        </div>
 
-<p>
-<a id="projectDemo"
-target="_blank">
+        <div class="modal-section">
 
-Live Demo
+            <h3>✅ Problem Solved</h3>
 
-</a>
-</p>
+            <p id="projectProblem"></p>
 
-</div>
+        </div>
 
-</div>
+        <div class="modal-section">
 
-<div id="certModal" class="modal">
+            <h3>💻 Tech Stack</h3>
 
-<div class="modal-content">
+            <div id="projectTech"
+                 class="tech-modal">
+            </div>
 
-<span class="close"
-onclick="closeCertModal()">
+        </div>
 
-&times;
+        <div class="project-links">
 
-</span>
+            <a id="projectDemo"
+               target="_blank"
+               class="demo-btn">
 
-<h2 id="certTitle"></h2>
+                <i class="fas fa-arrow-up-right-from-square"></i>
 
-<img id="certImage"
-class="cert-image">
+                Live Demo
 
-<p>
+            </a>
 
-<strong>Topics Covered:</strong>
+            <a id="projectGithub"
+               target="_blank"
+               class="git-btn">
 
-<span id="certTopics"></span>
+                <i class="fab fa-github"></i>
 
-</p>
+                GitHub
 
-<p>
+            </a>
 
-<strong>Credential ID:</strong>
+        </div>
 
-<span id="certCredential"></span>
-</p>
-
-<a id="certLink"
-target="_blank">
-
-View Certificate
-
-</a>
+    </div>
 
 </div>
 
 </div>
+
+<!-- ===========================
+      CERTIFICATE IMAGE MODAL
+============================ -->
+
+<div id="certModal" class="cert-modal-overlay">
+
+    <div class="cert-modal-box">
+
+        <span class="cert-close"
+              onclick="closeCertModal()">
+            &times;
+        </span>
+
+        <img
+            id="certImage"
+            class="cert-modal-image"
+            src=""
+            alt="Certificate">
+
+    </div>
+
+</div>
+
+
+
 
 <script>
 
@@ -469,22 +1167,47 @@ tech,
 github,
 demo){
 
-document.getElementById("projectTitle").innerText=title;
-document.getElementById("projectGoal").innerText=goal;
-document.getElementById("projectProblem").innerText=problem;
-document.getElementById("projectAccuracy").innerText=accuracy;
-document.getElementById("projectTech").innerText=tech;
+document.getElementById("projectTitle").innerHTML=title;
+
+document.getElementById("projectGoal").innerHTML=goal;
+
+document.getElementById("projectProblem").innerHTML=problem;
+
+document.getElementById("projectAccuracy").innerHTML=accuracy;
+
+let techList=tech.split(",");
+
+let html="";
+
+techList.forEach(function(item){
+
+html+=`<span>${item.trim()}</span>`;
+
+});
+
+document.getElementById("projectTech").innerHTML=html;
 
 document.getElementById("projectGithub").href=github;
+
 document.getElementById("projectDemo").href=demo;
 
-document.getElementById("projectModal").style.display="block";
+document.getElementById("projectModal").style.display="flex";
+
 }
 
-function closeProjectModal(){
+function closeProjectModal() {
+    document.getElementById("projectModal").style.display = "none";
+    }
+    window.onclick = function(event){
 
-document.getElementById("projectModal").style.display="none";
+    let modal = document.getElementById("projectModal");
 
+    if(event.target == modal){
+
+        modal.style.display = "none";
+
+
+}
 }
 
 function openCertModal(
@@ -492,26 +1215,36 @@ title,
 image,
 topics,
 credential,
-link){
+link,
+issuer,
+date){
 
-document.getElementById("certTitle").innerText=title;
+    const modal=document.getElementById("certModal");
 
-document.getElementById("certImage").src=image;
+    const img=document.getElementById("certImage");
 
-document.getElementById("certTopics").innerText=topics;
+    img.src=image;
 
-document.getElementById("certCredential").innerText=credential;
+    modal.style.display="flex";
 
-document.getElementById("certLink").href=link;
-
-document.getElementById("certModal").style.display="block";
 }
 
 function closeCertModal(){
 
-document.getElementById("certModal").style.display="none";
+    document.getElementById("certModal").style.display="none";
 
 }
+
+document.getElementById("certModal").addEventListener("click",function(e){
+
+    if(e.target===this){
+
+        closeCertModal();
+
+    }
+
+});
+
 
 </script>
 
