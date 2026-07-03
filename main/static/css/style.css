@@ -1206,3 +1206,218 @@ font-size:15px;
     background:#15803d;
     transform:translateY(-2px);
 }
+/* ===========================================
+           MOBILE RESPONSIVE
+=========================================== */
+
+@media screen and (max-width:768px){
+
+    html,body{
+        overflow-x:hidden;
+    }
+
+    .container{
+        width:95%;
+        margin:20px auto;
+    }
+
+    /* ---------- Navbar ---------- */
+
+    .navbar{
+        flex-direction:column;
+        align-items:center;
+        gap:15px;
+        padding:15px;
+    }
+
+    .nav-left{
+        width:100%;
+        display:flex;
+        flex-wrap:wrap;
+        justify-content:center;
+        gap:12px;
+    }
+
+    .nav-left a{
+        font-size:14px;
+    }
+
+    .resume-btn{
+        width:100%;
+        max-width:260px;
+    }
+
+    /* ---------- Profile ---------- */
+
+    .profile-card{
+        flex-direction:column;
+        text-align:center;
+        gap:25px;
+        padding:25px;
+    }
+
+    .left-side{
+        width:100%;
+    }
+
+    .right-side{
+        width:100%;
+        text-align:center;
+    }
+
+    .profile-img{
+        width:160px;
+        height:160px;
+    }
+
+    .right-side h2{
+        font-size:32px;
+    }
+
+    .about-text{
+        font-size:16px;
+        line-height:1.7;
+    }
+
+    /* ---------- Social ---------- */
+
+    .socials{
+        justify-content:center;
+        flex-wrap:wrap;
+    }
+
+    .socials a{
+        width:150px;
+        justify-content:center;
+    }
+
+    /* ---------- Education ---------- */
+
+    .education-card{
+        flex-direction:column;
+        text-align:center;
+    }
+
+    .education-icon{
+        margin:auto;
+    }
+
+    /* ---------- Projects ---------- */
+
+    .project-grid{
+        grid-template-columns:1fr;
+    }
+
+    /* ---------- Certificates ---------- */
+
+    .cert-grid{
+        grid-template-columns:1fr;
+    }
+
+    /* ---------- Modal ---------- */
+
+    .project-links{
+        flex-direction:column;
+    }
+
+    .project-modal-content{
+        padding:20px;
+    }
+
+    .project-modal-content h2{
+        font-size:24px;
+    }
+
+}
+/* Logo */
+
+.logo{
+    color:white;
+    font-size:24px;
+    font-weight:700;
+}
+
+/* Hamburger */
+
+.menu-toggle{
+    display:none;
+    color:white;
+    font-size:28px;
+    cursor:pointer;
+}
+
+/* ================= MOBILE ================= */
+
+@media(max-width:768px){
+
+    .navbar{
+
+        padding:15px 20px;
+
+        flex-wrap:wrap;
+    }
+
+    .menu-toggle{
+
+        display:block;
+    }
+
+    .nav-left{
+
+        display:none;
+
+        width:100%;
+
+        flex-direction:column;
+
+        margin-top:20px;
+
+        gap:15px;
+
+        text-align:center;
+    }
+
+    .nav-left.active{
+
+        display:flex;
+    }
+
+    .resume-btn{
+
+        width:100%;
+    }
+
+    .profile-card{
+
+        flex-direction:column;
+
+        text-align:center;
+
+        gap:30px;
+    }
+
+    .left-side{
+
+        width:100%;
+    }
+
+    .right-side{
+
+        width:100%;
+    }
+
+    .socials{
+
+        justify-content:center;
+
+        flex-wrap:wrap;
+    }
+
+    .education-card{
+
+        flex-direction:column;
+
+        text-align:center;
+    }
+
+}

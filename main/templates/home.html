@@ -19,21 +19,27 @@
 
 <nav class="navbar">
 
+    <h2 class="logo">Portfolio</h2>
 
-<div class="nav-left">
-    <a href="#profile">Profile</a>
-    <a href="#education">Education</a>
-    <a href="#skills">Skills</a>
-    <a href="#projects">Projects</a>
-    <a href="#certifications">Certificates</a>
-    <a href="#contact">Contact</a>
-</div>
+    <div class="menu-toggle" id="menu-toggle">
+        <i class="fas fa-bars"></i>
+    </div>
 
-<a href="/accounts/google/login/" class="resume-btn">
-    <i class="fab fa-google"></i>
-    Download Resume
-</a>
+    <div class="nav-left" id="nav-links">
 
+        <a href="#profile">Profile</a>
+        <a href="#education">Education</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#certifications">Certificates</a>
+        <a href="#contact">Contact</a>
+
+        <a href="/accounts/google/login/" class="resume-btn">
+            <i class="fab fa-google"></i>
+            Download Resume
+        </a>
+
+    </div>
 
 </nav>
 
@@ -1248,7 +1254,19 @@ document.getElementById("certModal").addEventListener("click",function(e){
 
 </script>
 
+<script>
 
+const menu=document.getElementById("menu-toggle");
+
+const nav=document.getElementById("nav-links");
+
+menu.addEventListener("click",()=>{
+
+    nav.classList.toggle("active");
+
+});
+
+</script>
 
 </body>
 </html>
