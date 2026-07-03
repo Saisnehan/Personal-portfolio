@@ -14,8 +14,10 @@ load_dotenv(BASE_DIR / ".env")
 # SECURITY
 # --------------------------------------------------
 
-SECRET_KEY = "django-insecure-)=c14dk$z1rx=4oln9l&hz4cg_(t8xdpug-vd95=0+dnyb)8#@"
-
+SECRET_KEY = os.getenv(
+    "SECRET_KEY",
+    "django-insecure-)=c14dk$z1rx=4oln9l&hz4cg_(t8xdpug-vd95=0+dnyb)8#@"
+)
 DEBUG = os.getenv("DEBUG", "False") == "True"
 
 ALLOWED_HOSTS = [
@@ -221,8 +223,8 @@ LOGOUT_REDIRECT_URL = "/"
 
 ACCOUNT_LOGOUT_ON_GET = True
 
-ACCOUNT_LOGIN_METHODS = {"email"}
-ACCOUNT_SIGNUP_FIELDS = ["email*", "password1*", "password2*"]
+#ACCOUNT_LOGIN_METHODS = {"email"}
+#ACCOUNT_SIGNUP_FIELDS = ["email*", "password1*", "password2*"]
 SOCIALACCOUNT_EMAIL_AUTHENTICATION = True
 SOCIALACCOUNT_EMAIL_AUTHENTICATION_AUTO_CONNECT = True
 
@@ -249,18 +251,3 @@ SOCIALACCOUNT_PROVIDERS = {
 
 }
 
-LOGGING = {
-    "version": 1,
-    "disable_existing_loggers": False,
-    "handlers": {
-        "console": {
-            "class": "logging.StreamHandler",
-        },
-    },
-    "loggers": {
-        "allauth": {
-            "handlers": ["console"],
-            "level": "DEBUG",
-        },
-    },
-}
