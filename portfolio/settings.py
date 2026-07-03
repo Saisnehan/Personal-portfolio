@@ -23,7 +23,9 @@ ALLOWED_HOSTS = [
     "127.0.0.1",
     "localhost",
 ]
-
+CSRF_TRUSTED_ORIGINS = [
+    "https://personal-portfolio-production-3dcc.up.railway.app",
+]
 # --------------------------------------------------
 # APPLICATIONS
 # --------------------------------------------------
@@ -56,7 +58,7 @@ SITE_ID = 2
 MIDDLEWARE = [
 
     "django.middleware.security.SecurityMiddleware",
-    
+
     'whitenoise.middleware.WhiteNoiseMiddleware',
 
     "django.contrib.sessions.middleware.SessionMiddleware",
