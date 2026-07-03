@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Authentication Error</title>
+</head>
+<body>
+    <h1>Authentication Error</h1>
+
+    <p>{{ exception }}</p>
+
+    <pre>{{ exception|default:"No exception available" }}</pre>
+
+    <p>Error:</p>
+
+    <pre>{{ error }}</pre>
+
+    <p>Context:</p>
+
+    <pre>{{ view }}</pre>
+</body>
+</html>
