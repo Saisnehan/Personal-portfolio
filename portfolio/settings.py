@@ -24,7 +24,7 @@ ALLOWED_HOSTS = [
     "localhost",
 ]
 CSRF_TRUSTED_ORIGINS = [
-    "https://personal-portfolio-production-3dcc.up.railway.app",
+    "https://personal-portfolio-production-5e87.up.railway.app",
 ]
 # --------------------------------------------------
 # APPLICATIONS
