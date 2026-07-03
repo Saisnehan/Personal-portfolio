@@ -36,7 +36,9 @@ SESSION_COOKIE_SECURE = True
 
 SECURE_SSL_REDIRECT = not DEBUG
 
-CSRF_TRUSTED_ORIGINS=https://personal-portfolio-production-5e87.up.railway.app
+CSRF_TRUSTED_ORIGINS = [
+    os.getenv("CSRF_TRUSTED_ORIGIN", "https://personal-portfolio-production-5e87.up.railway.app")
+]
 # --------------------------------------------------
 # APPLICATIONS
 # --------------------------------------------------
