@@ -1,7 +1,7 @@
 from pathlib import Path
 import os
 from dotenv import load_dotenv
-
+import dj_database_url
 # --------------------------------------------------
 # BASE DIRECTORY
 # --------------------------------------------------
@@ -16,9 +16,10 @@ load_dotenv(BASE_DIR / ".env")
 
 SECRET_KEY = "django-insecure-)=c14dk$z1rx=4oln9l&hz4cg_(t8xdpug-vd95=0+dnyb)8#@"
 
-DEBUG = True
+DEBUG = os.getenv("DEBUG", "False") == "True"
 
 ALLOWED_HOSTS = [
+    ".railway.app",
     "127.0.0.1",
     "localhost",
 ]
@@ -55,6 +56,8 @@ SITE_ID = 2
 MIDDLEWARE = [
 
     "django.middleware.security.SecurityMiddleware",
+    
+    'whitenoise.middleware.WhiteNoiseMiddleware',
 
     "django.contrib.sessions.middleware.SessionMiddleware",
 
@@ -121,34 +124,17 @@ WSGI_APPLICATION = "portfolio.wsgi.application"
 # DATABASE
 # --------------------------------------------------
 
-USE_POSTGRES = os.getenv("USE_POSTGRES", "False") == "True"
+import dj_database_url
 
-if USE_POSTGRES:
-
-    DATABASES = {
-    "default": {
-        "ENGINE": "django.db.backends.postgresql",
-        "NAME": os.getenv("DB_NAME"),
-        "USER": os.getenv("DB_USER"),
-        "PASSWORD": os.getenv("DB_PASSWORD"),
-        "HOST": os.getenv("DB_HOST"),
-        "PORT": os.getenv("DB_PORT"),
-        "CONN_MAX_AGE": 600,
-    }
+DATABASES = {
+    "default": dj_database_url.config(
+        default=os.getenv(
+            "DATABASE_URL",
+            f"sqlite:///{BASE_DIR / 'db.sqlite3'}"
+        ),
+        conn_max_age=600,
+    )
 }
-else:
-
-    DATABASES = {
-
-        "default":{
-
-            "ENGINE":"django.db.backends.sqlite3",
-
-            "NAME":BASE_DIR/"db.sqlite3",
-
-        }
-
-    }
 
 # --------------------------------------------------
 # PASSWORD VALIDATION
@@ -191,15 +177,13 @@ USE_TZ = True
 # --------------------------------------------------
 
 STATIC_URL = "/static/"
+STATIC_ROOT = BASE_DIR / "staticfiles"
 
 STATICFILES_DIRS = [
-
-    BASE_DIR/"main/static",
-
+    BASE_DIR / "main/static",
 ]
 
-STATIC_ROOT = BASE_DIR/"staticfiles"
-
+STATICFILES_STORAGE = "whitenoise.storage.CompressedManifestStaticFilesStorage"
 # --------------------------------------------------
 # DEFAULT PRIMARY KEY
 # --------------------------------------------------
