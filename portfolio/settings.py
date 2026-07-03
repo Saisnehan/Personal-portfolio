@@ -36,7 +36,7 @@ SESSION_COOKIE_SECURE = True
 
 SECURE_SSL_REDIRECT = not DEBUG
 
-
+CSRF_TRUSTED_ORIGINS=https://personal-portfolio-production-5e87.up.railway.app
 # --------------------------------------------------
 # APPLICATIONS
 # --------------------------------------------------
@@ -225,8 +225,8 @@ ACCOUNT_LOGOUT_ON_GET = True
 
 #ACCOUNT_LOGIN_METHODS = {"email"}
 #ACCOUNT_SIGNUP_FIELDS = ["email*", "password1*", "password2*"]
-SOCIALACCOUNT_EMAIL_AUTHENTICATION = True
-SOCIALACCOUNT_EMAIL_AUTHENTICATION_AUTO_CONNECT = True
+#SOCIALACCOUNT_EMAIL_AUTHENTICATION = True
+#SOCIALACCOUNT_EMAIL_AUTHENTICATION_AUTO_CONNECT = True
 
 SOCIALACCOUNT_LOGIN_ON_GET = True
 SOCIALACCOUNT_PROVIDERS = {
