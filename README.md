@@ -1,7 +1,7 @@
 Personal Portfolio Website
  
 Welcome to my personal portfolio website! This portfolio showcases my skills, projects, certifications, and contact information.
-
+ 
 About Me  
      
 I am **K Sai Snehan**, a Computer Science and Engineering graduate passionate about Software Development, Machine Learning, and Web Technologies. I enjoy building web applications and data-driven solutions using Python, Django, SQL, and modern web technologies.
