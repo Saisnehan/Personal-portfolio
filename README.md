@@ -1,5 +1,5 @@
 Personal Portfolio Website
- 
+
 Welcome to my personal portfolio website! This portfolio showcases my skills, projects, certifications, and contact information.
    
 About Me  
