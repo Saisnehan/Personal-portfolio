@@ -9,18 +9,6 @@
 
 ---
 
-## 📋 Table of Contents
-
-- [Overview](#overview)
-- [Features](#features)
-- [Technologies](#technologies)
-- [Projects Showcase](#projects-showcase)
-- [Certifications](#certifications)
-- [Getting Started](#getting-started)
-- [Project Structure](#project-structure)
-- [Connect With Me](#connect-with-me)
-
----
 
 ## 🎯 Overview
 
