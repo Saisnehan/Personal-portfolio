@@ -188,7 +188,7 @@ firebase deploy
 
 ### 📧 Contact Information
 
-- **Email**: [saisnehank@gmail.com](mailto:saisnehank@gmail.com)
+- **Email**: [saisnehank@gmail.com](mailto:saisnehank@gmail.com)  
 - **LinkedIn**: [linkedin.com/in/k-saisnehan](https://linkedin.com/in/k-saisnehan)
 - **GitHub**: [github.com/Saisnehan](https://github.com/Saisnehan)
 
