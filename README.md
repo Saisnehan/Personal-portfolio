@@ -152,7 +152,7 @@ vercel
 - Drag and drop deployment
 - Connect GitHub repository
 
-**Firebase Hosting**
+**Firebase Hosting**  
 ```bash
 firebase deploy
 ```
