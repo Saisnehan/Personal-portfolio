@@ -151,7 +151,7 @@ vercel
 **Netlify**
 - Drag and drop deployment
 - Connect GitHub repository  
-
+   
 **Firebase Hosting**  
 ```bash
 firebase deploy
