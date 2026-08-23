@@ -173,7 +173,7 @@ firebase deploy
 - Python | Django | SQL
 - HTML5 | CSS3 | JavaScript
 - Machine Learning (Scikit-learn, ANN)
-- Microsoft Fabric | Power BI
+- Microsoft Fabric | Power BI  
 - MySQL | Git | GitHub
 
 🏆 **Key Achievements**
