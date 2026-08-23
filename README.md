@@ -164,7 +164,7 @@ firebase deploy
 **K Sai Snehan** | Computer Science & Engineering Graduate
 
 🎯 **Focus Areas**
-- Software Development
+- Software Development  
 - Machine Learning
 - Web Technologies
 - Data Engineering
