@@ -148,7 +148,6 @@ vercel
 - Push to `gh-pages` branch
 - Enable in repository settings
 
-
 **Netlify**
 - Drag and drop deployment
 - Connect GitHub repository  
