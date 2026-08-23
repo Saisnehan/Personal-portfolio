@@ -43,7 +43,7 @@ A modern, responsive personal portfolio website showcasing my skills, projects, 
 
 ### Design
 - **Responsive Web Design** - Mobile-first approach
-- **CSS Flexbox/Grid** - Layout techniques
+- **CSS Flexbox/Grid** - Layout techniques   
 - **CSS Animations** - Smooth transitions
 
 ---
