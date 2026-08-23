@@ -50,7 +50,7 @@ A modern, responsive personal portfolio website showcasing my skills, projects, 
 
 ## 🚀 Projects Showcase
 
-### 1️⃣ Employee Management System
+### 1️⃣ Employee Management System   
 ```
 Technologies: Python | Django | MySQL | Bootstrap
 Features: Employee CRUD, Authentication, RBAC
