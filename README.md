@@ -144,6 +144,9 @@ npm install -g vercel
 vercel
 ```
 
+**GitHub Pages**
+- Push to `gh-pages` branch
+- Enable in repository settings
 
 
 **Netlify**
