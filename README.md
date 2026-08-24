@@ -149,7 +149,7 @@ vercel
 - Enable in repository settings
 
 **Netlify**
-- Drag and drop deployment
+- Drag and drop deployment  
 - Connect GitHub repository  
    
 **Firebase Hosting**  
