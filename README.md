@@ -214,7 +214,7 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 - 📊 Skills progress visualization
 - 🎥 Video testimonials
 - 🌐 Multi-language support
-
+   
 ---
 
 ## 📞 Support
