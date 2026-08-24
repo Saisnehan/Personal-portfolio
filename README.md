@@ -92,7 +92,7 @@ GitHub: https://github.com/Saisnehan/supermarket-data-engineering-fabric
 
 ```
 personal-portfolio/
-│
+│    
 ├── index.html              # Main HTML file
 ├── css/
 │   └── style.css          # Main stylesheet
