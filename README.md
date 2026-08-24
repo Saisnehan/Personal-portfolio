@@ -212,9 +212,9 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 - 🎨 Dark mode toggle
 - 💬 Contact form with email backend  
 - 📊 Skills progress visualization
-- 🎥 Video testimonials
+- 🎥 Video testimonials 
 - 🌐 Multi-language support
-   
+     
 ---
 
 ## 📞 Support
