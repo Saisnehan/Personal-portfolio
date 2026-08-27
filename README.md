@@ -58,7 +58,7 @@ GitHub: https://github.com/Saisnehan/Office_Emp_Management_sys
 ```
 
 ### 2️⃣ Used Vehicle Price Prediction System
-```
+```   
 Technologies: Python | Django | Machine Learning | MySQL
 Features: ML-based price prediction, 92% accuracy
 GitHub: https://github.com/Saisnehan/vehicle-price-prediction
