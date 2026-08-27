@@ -37,7 +37,7 @@ A modern, responsive personal portfolio website showcasing my skills, projects, 
 ### Frontend
 - **HTML5** - Semantic markup structure
 - **CSS3** - Modern styling and animations
-- **JavaScript** - Interactive elements and functionality
+- **JavaScript** - Interactive elements and functionality   
 - **Font Awesome** - Icon library
 - **Bootstrap** - Responsive grid system (optional)
 
