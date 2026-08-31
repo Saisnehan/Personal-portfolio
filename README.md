@@ -23,7 +23,7 @@ A modern, responsive personal portfolio website showcasing my skills, projects, 
 ✅ **Responsive Design** - Works seamlessly on desktop, tablet, and mobile     nlsm.cs
 ✅ **About Me Section** - Professional introduction and background   
 ✅ **Skills Showcase** - Technologies and competencies  
-✅ **Projects Portfolio** - Detailed project descriptions with links    
+✅ **Projects Portfolio** - Detailed project descriptions with links    shnssm
 ✅ **Certifications** - Professional credentials and achievements  
 ✅ **Contact Section** - Multiple ways to get in touch  
 ✅ **Social Media Links** - GitHub, LinkedIn, and email integration  
