@@ -3,7 +3,7 @@
 > **Responsive Portfolio Showcase | HTML5 | CSS3 | JavaScript**
 
 ![HTML5](https://img.shields.io/badge/HTML5-Web-orange)   
-![CSS3](https://img.shields.io/badge/CSS3-Styling-blue)  dddfff3r3r
+![CSS3](https://img.shields.io/badge/CSS3-Styling-blue)  
 ![JavaScript](https://img.shields.io/badge/JavaScript-Interactive-yellow)
 ![Responsive](https://img.shields.io/badge/Responsive-Design-green)   sjbdmnmssmmsflmsm,,nas,n,a
 
