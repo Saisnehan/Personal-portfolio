@@ -18,7 +18,19 @@ A modern, responsive personal portfolio website showcasing my skills, projects, 
 
 ---   
 
+## ✨ Features
 
+✅ **Responsive Design** - Works seamlessly on desktop, tablet, and mobile
+✅ **About Me Section** - Professional introduction and background
+✅ **Skills Showcase** - Technologies and competencies  
+✅ **Projects Portfolio** - Detailed project descriptions with links   
+✅ **Certifications** - Professional credentials and achievements 
+✅ **Contact Section** - Multiple ways to get in touch
+✅ **Social Media Links** - GitHub, LinkedIn, and email integration
+✅ **Smooth Navigation** - Intuitive menu and scrolling
+✅ **Dark Mode Ready** - Modern aesthetic design   
+
+---
 
 ## 🛠️ Technologies Used
 
