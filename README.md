@@ -25,7 +25,7 @@ A modern, responsive personal portfolio website showcasing my skills, projects, 
 ✅ **Skills Showcase** - Technologies and competencies  khwfjlfk
 ✅ **Projects Portfolio** - Detailed project descriptions with links    shnssm
 ✅ **Certifications** - Professional credentials and achievements  nmz,zl.
-✅ **Contact Section** - Multiple ways to get in touch  
+✅ **Contact Section** - Multiple ways to get in touch  jsks,,ssll
 ✅ **Social Media Links** - GitHub, LinkedIn, and email integration  
 ✅ **Smooth Navigation** - Intuitive menu and scrolling  
 ✅ **Dark Mode Ready** - Modern aesthetic design    
