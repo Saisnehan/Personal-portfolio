@@ -18,7 +18,7 @@ A modern, responsive personal portfolio website showcasing my skills, projects, 
 
 ---   
 
-## ✨ Features vvvvv
+## ✨ Features
 
 ✅ **Responsive Design** - Works seamlessly on desktop, tablet, and mobile
 ✅ **About Me Section** - Professional introduction and background   hsjsks,z
