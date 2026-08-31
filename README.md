@@ -27,7 +27,7 @@ A modern, responsive personal portfolio website showcasing my skills, projects, 
 ✅ **Certifications** - Professional credentials and achievements  nmz,zl.
 ✅ **Contact Section** - Multiple ways to get in touch  jsks,,ssll
 ✅ **Social Media Links** - GitHub, LinkedIn, and email integration  nwmam
-✅ **Smooth Navigation** - Intuitive menu and scrolling  
+✅ **Smooth Navigation** - Intuitive menu and scrolling  JASKAK
 ✅ **Dark Mode Ready** - Modern aesthetic design    mDS,ASL
 
 ---
