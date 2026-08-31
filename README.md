@@ -20,7 +20,7 @@ A modern, responsive personal portfolio website showcasing my skills, projects, 
 
 ## ✨ Features vvvvv
 
-✅ **Responsive Design** - Works seamlessly on desktop, tablet, and mobile     nlsm.cs
+✅ **Responsive Design** - Works seamlessly on desktop, tablet, and mobile
 ✅ **About Me Section** - Professional introduction and background   hsjsks,z
 ✅ **Skills Showcase** - Technologies and competencies  khwfjlfk
 ✅ **Projects Portfolio** - Detailed project descriptions with links    shnssm
