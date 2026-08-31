@@ -22,7 +22,7 @@ A modern, responsive personal portfolio website showcasing my skills, projects, 
 
 ✅ **Responsive Design** - Works seamlessly on desktop, tablet, and mobile
 ✅ **About Me Section** - Professional introduction and background
-✅ **Skills Showcase** - Technologies and competencies  khwfjlfk
+✅ **Skills Showcase** - Technologies and competencies  
 ✅ **Projects Portfolio** - Detailed project descriptions with links    shnssm
 ✅ **Certifications** - Professional credentials and achievements  nmz,zl.
 ✅ **Contact Section** - Multiple ways to get in touch  jsks,,ssll
