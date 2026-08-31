@@ -24,7 +24,7 @@ A modern, responsive personal portfolio website showcasing my skills, projects, 
 ✅ **About Me Section** - Professional introduction and background
 ✅ **Skills Showcase** - Technologies and competencies  
 ✅ **Projects Portfolio** - Detailed project descriptions with links   
-✅ **Certifications** - Professional credentials and achievements  nmz,zl.
+✅ **Certifications** - Professional credentials and achievements 
 ✅ **Contact Section** - Multiple ways to get in touch  jsks,,ssll
 ✅ **Social Media Links** - GitHub, LinkedIn, and email integration  nwmam
 ✅ **Smooth Navigation** - Intuitive menu and scrolling  JASKAK
