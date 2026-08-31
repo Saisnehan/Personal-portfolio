@@ -28,7 +28,7 @@ A modern, responsive personal portfolio website showcasing my skills, projects, 
 ✅ **Contact Section** - Multiple ways to get in touch  jsks,,ssll
 ✅ **Social Media Links** - GitHub, LinkedIn, and email integration  nwmam
 ✅ **Smooth Navigation** - Intuitive menu and scrolling  
-✅ **Dark Mode Ready** - Modern aesthetic design    
+✅ **Dark Mode Ready** - Modern aesthetic design    mDS,ASL
 
 ---
 
