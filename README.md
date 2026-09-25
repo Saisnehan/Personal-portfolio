@@ -75,7 +75,7 @@ GitHub: https://github.com/Saisnehan/vehicle-price-prediction
 
 ### 3️⃣ Supermarket Data Engineering Platform
 ```
-Technologies: Microsoft Fabric | PySpark | SQL | Power BI
+Technologies: Microsoft Fabric | PySpark | SQL | Power BI  
 Features: End-to-end ETL, Bronze-Silver-Gold architecture
 GitHub: https://github.com/Saisnehan/supermarket-data-engineering-fabric
 ```
