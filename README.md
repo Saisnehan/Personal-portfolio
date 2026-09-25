@@ -175,7 +175,7 @@ firebase deploy
 🎯 **Focus Areas**
 - Software Development  
 - Machine Learning
-- Web Technologies
+- Web Technologies  
 - Data Engineering
 
 💻 **Technical Skills**
