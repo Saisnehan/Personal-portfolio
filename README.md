@@ -184,7 +184,7 @@ firebase deploy
 - Machine Learning (Scikit-learn, ANN)
 - Microsoft Fabric | Power BI  
 - MySQL | Git | GitHub
-
+  
 🏆 **Key Achievements**
 - 8.8/10 CGPA (B.Tech CSE, 2022-2026)
 - Built 3+ full-stack applications
