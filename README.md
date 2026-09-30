@@ -85,7 +85,7 @@ GitHub: https://github.com/Saisnehan/supermarket-data-engineering-fabric
 ## 🎓 Certifications
 
 - 🏆 **Microsoft AI Skills Fest**
-- 📊 **HackerRank SQL (Advanced)**
+- 📊 **HackerRank SQL (Advanced)**   
 - 🐍 **HackerRank Python (Basic)**
 - 💼 **Python Development Internship** – SkillRaace
 - 📚 **IBM Skills Network** – SQL and Relational Databases 101
