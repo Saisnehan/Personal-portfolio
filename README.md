@@ -218,7 +218,7 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 ## 🚀 Future Enhancements
 
 - 📝 Blog section for technical articles
-- 🎨 Dark mode toggle   
+- 🎨 Dark mode toggle     
 - 💬 Contact form with email backend  
 - 📊 Skills progress visualization    
 - 🎥 Video testimonials    
