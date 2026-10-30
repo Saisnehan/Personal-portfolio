@@ -2,10 +2,10 @@
   
 > **Responsive Portfolio Showcase | HTML5 | CSS3 | JavaScript**
 
-![HTML5](https://img.shields.io/badge/HTML5-Web-orange)   
+![HTML5](https://img.shields.io/badge/HTML5-Web-orange)      
 ![CSS3](https://img.shields.io/badge/CSS3-Styling-blue)   
-![JavaScript](https://img.shields.io/badge/JavaScript-Interactive-yellow)     
-![Responsive](https://img.shields.io/badge/Responsive-Design-green)    
+![JavaScript](https://img.shields.io/badge/JavaScript-Interactive-yellow)       
+![Responsive](https://img.shields.io/badge/Responsive-Design-green)      
 
 ---
 
@@ -32,9 +32,9 @@ A modern, responsive personal portfolio website showcasing my skills, projects, 
 
 ✅ **Contact Section** - Multiple ways to get in touch
 
-✅ **Social Media Links** - GitHub, LinkedIn, and email integration
+✅ **Social Media Links** - GitHub, LinkedIn, and email integration  
 
-✅ **Smooth Navigation** - Intuitive menu and scrolling
+✅ **Smooth Navigation** - Intuitive menu and scrolling      
 
 ✅ **Dark Mode Ready** - Modern aesthetic design   
 
