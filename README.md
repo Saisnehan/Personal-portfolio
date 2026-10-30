@@ -131,15 +131,15 @@ personal-portfolio/
 - Button animations
 - Form validation
 
-### Performance Optimized
-- Lightweight CSS and JavaScript
-- Fast page load times
-- Minimal external dependencies
+### Performance Optimized   
+- Lightweight CSS and JavaScript  
+- Fast page load times   
+- Minimal external dependencies   
 
-### SEO Friendly
-- Semantic HTML structure
-- Meta tags for social sharing
-- Proper heading hierarchy
+### SEO Friendly  
+- Semantic HTML structure  
+- Meta tags for social sharing  
+- Proper heading hierarchy   
 
 ---
 
