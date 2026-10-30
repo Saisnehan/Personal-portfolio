@@ -44,11 +44,11 @@ A modern, responsive personal portfolio website showcasing my skills, projects, 
 ## 🛠️ Technologies Used
 
 ### Frontend    
-- **HTML5** - Semantic markup structure
-- **CSS3** - Modern styling and animations
-- **JavaScript** - Interactive elements and functionality      
-- **Font Awesome** - Icon library
-- **Bootstrap** - Responsive grid system (optional)
+- **HTML5** - Semantic markup structure  
+- **CSS3** - Modern styling and animations  
+- **JavaScript** - Interactive elements and functionality        
+- **Font Awesome** - Icon library  
+- **Bootstrap** - Responsive grid system (optional)   
 
 ### Design
 - **Responsive Web Design** - Mobile-first approach
