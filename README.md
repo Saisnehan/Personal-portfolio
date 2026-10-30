@@ -19,7 +19,7 @@ A modern, responsive personal portfolio website showcasing my skills, projects, 
 ---   
 
 ## ✨ Features
-
+            
 ✅ **Responsive Design** - Works seamlessly on desktop, tablet, and mobile
 
 ✅ **About Me Section** - Professional introduction and background
@@ -43,7 +43,7 @@ A modern, responsive personal portfolio website showcasing my skills, projects, 
 
 ## 🛠️ Technologies Used
 
-### Frontend
+### Frontend    
 - **HTML5** - Semantic markup structure
 - **CSS3** - Modern styling and animations
 - **JavaScript** - Interactive elements and functionality      
